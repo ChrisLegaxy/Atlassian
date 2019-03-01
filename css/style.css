@@ -1,0 +1,137 @@
+
+/*Default Body*/
+
+body
+{
+    font-family: Charlie Text,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Droid Sans,Helvetica Neue,sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+/*ClearFix*/
+
+.clearfix:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Container for making all the contents in Center and also specify the width*/
+
+.container
+{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* Header */
+
+header
+{
+    
+}
+
+/* Left Nav */
+
+.nav-left
+{
+    display: flex;
+    float: left;
+}
+
+/* Left Nav Logo */
+
+div.logo
+{
+    width: 193px;
+    line-height: 72px;
+    margin-right: 12px;
+}
+a.homeLogo
+{
+    line-height: 72px;
+}
+img.logoImage
+{
+    vertical-align: text-bottom;
+}
+
+/* Left Nav List or Content */
+
+/* Clear default padding and margin */
+.left-nav-list
+{
+    padding: 0;
+    margin: 0;
+}
+.left-nav-list > li > a
+{
+    text-decoration: none;
+    padding: 4px 25px 4px 14px;
+    border-radius: 3px;
+    color: #42526E;
+}
+
+/* Generic Li Properties */
+li
+{
+    display: inline;
+    line-height: 72px;
+}
+
+/* Right Nav */
+
+.nav-right
+{
+    display: flex;
+    float: right;
+}
+/* Clear default padding and margin */
+.right-nav-list
+{
+    margin: 0;
+    padding: 0;
+}
+.right-nav-list > li > a
+{
+    text-decoration: none;
+    padding: 0 16px;
+    font-size: .875rem;
+    color: #42526E;
+    display: inline-block;
+    height: 32px;
+    line-height: 30px;
+}
+/* Try Button */
+ul.right-nav-list > li > a.tryButton   
+{
+    border-radius: 3px;
+    background-color: #0052CC;
+    color: #FFF;
+    font-weight: 500;
+    border: 1px solid #0052CC;
+}
+/* Search Button */
+ul.right-nav-list > li > a.searchButton
+{
+    padding: 0;
+    height: 29px;
+    width: 29px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+/* #showcase
+{
+    background: url("https://wac-cdn.atlassian.com/dam/jcr:4f6bda21-a0c7-49ae-abbe-464dbe2432c1/Summit2019-WACTakeover.svg?cdnVersion=lc");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    background-color: #172B4D;
+    text-align: center;
+} */
