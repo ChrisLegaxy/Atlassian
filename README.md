@@ -2,6 +2,10 @@
 
 This is a test to design, to make a home page from www.atlassian.com to be nearly identical as possible only using HTML, CSS
 
+### Current Status of The Development
+
+Using Netlify to host : https://heuristic-mcclintock-5c39e0.netlify.com/
+
 ## Getting Started
 
 Learn basic HTML, CSS then continue with Advance CSS (SASS)
