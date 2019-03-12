@@ -4,7 +4,7 @@ This is a test to design, to make a home page from www.atlassian.com to be nearl
 
 ### Current Status of The Development
 
-Using Netlify to host : https://heuristic-mcclintock-5c39e0.netlify.com/
+Using Netlify to host : https://suspicious-davinci-45c2fd.netlify.com/
 
 ## Getting Started
 
