@@ -22,8 +22,8 @@ body
 
 .container
 {
-    max-width: 1200px;
-    margin: auto;
+    max-width: 75%;
+    margin: 0 auto;
     padding: 0 20px;
 }
 
@@ -124,7 +124,9 @@ ul.right-nav-list > li > a.searchButton
     text-align: center;
 }
 
-/* #showcase
+/* Showcase Properties */
+
+#showcase
 {
     background: url("https://wac-cdn.atlassian.com/dam/jcr:4f6bda21-a0c7-49ae-abbe-464dbe2432c1/Summit2019-WACTakeover.svg?cdnVersion=lc");
     background-position: bottom;
@@ -134,4 +136,32 @@ ul.right-nav-list > li > a.searchButton
     padding-bottom: 96px;
     background-color: #172B4D;
     text-align: center;
-} */
+    color: white;
+    font-family: Charlie Display,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Droid Sans,Helvetica Neue,sans-serif;
+}
+
+/* Feature Properties */
+
+.feature-container
+{
+    display: flex;
+    height: auto;
+}
+
+#feature
+{
+    background-color: #F4F5F7;
+}
+
+#feature-image
+{
+    width: 207.99px;
+    height: 207.99px;
+    float: left;
+}
+
+#feature-heading>h3,p,button
+{
+    margin: 0;
+    padding: 0;
+}
