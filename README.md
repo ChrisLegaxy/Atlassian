@@ -1,6 +1,6 @@
 # Atlassian
 
-This is a test to design, to make a home page from www.atlassian.com to be nearly identical as possible only using HTML, CSS
+This is a test to design, to make a home page from www.atlassian.com to be nearly identical as possible only using <b> HTML, CSS </b>
 
 ### Current Status of The Development
 
@@ -22,9 +22,9 @@ Technology or Language used:
 
 ## Authors
 
-Vansen Hengmeanrith aka Chris
+#### Vansen Hengmeanrith aka Chris
 
-Database Developer at DGK
+#### Database Developer at DGK
 
 ## License
 
