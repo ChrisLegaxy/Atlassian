@@ -13,18 +13,22 @@ Learn basic HTML, CSS then continue with Advance CSS (SASS)
 ### Prerequisites
 
 Tools used:
-- Visual Studio Code
-- Prepros (SASS Compiler)
+* Visual Studio Code : https://code.visualstudio.com/download
+* Prepros (SASS Compiler) : https://prepros.io/
 
 Technology or Language used:
-- HTML5
-- CSS
+* HTML5
+* CSS
+
+### Naming Convention
+
+Using BEM as HTML/CSS naming convention : http://getbem.com/
 
 ## Authors
 
-#### Vansen Hengmeanrith aka Chris
+#### *Vansen Hengmeanrith aka Chris*
 
-#### Database Developer at DGK
+#### *Database Developer at DGK*
 
 ## License
 
@@ -32,5 +36,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-- Brad Traversy (Great tutorials on Youtube)
-- Stack Over Flow (Great answers to solve some of my problems or issues)
+* **Brad Traversy** (Great tutorials on Youtube)
+* **Stack Over Flow** (Great answers to solve some of my problems or issues)
