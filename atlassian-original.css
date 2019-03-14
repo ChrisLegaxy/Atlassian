@@ -1,0 +1,1098 @@
+@font-face{
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Black.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Black.woff2) format("woff2");
+    font-weight:700;
+    font-style:normal
+}
+@font-face{
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Bold.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Bold.woff2) format("woff2");
+    font-weight:600;
+    font-style:normal
+}
+@font-face{
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Light.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Light.woff2) format("woff2");
+    font-weight:300;
+    font-style:normal
+}
+@font-face{
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Regular.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Regular.woff2) format("woff2");
+    font-weight:400;
+    font-style:normal
+}
+@font-face{
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Semibold.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Semibold.woff2) format("woff2");
+    font-weight:500;
+    font-style:normal
+}
+@font-face{
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Thin.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Thin.woff2) format("woff2");
+    font-weight:100;
+    font-style:normal
+}
+@font-face{
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Ultra.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Ultra.woff2) format("woff2");
+    font-weight:800;
+    font-style:normal
+}
+@font-face{
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Black_Italic.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Black_Italic.woff2) format("woff2");
+    font-weight:700;
+    font-style:italic
+}
+@font-face{
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Bold_Italic.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Bold_Italic.woff2) format("woff2");
+    font-weight:600;
+    font-style:italic
+}
+@font-face{
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Italic.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Italic.woff2) format("woff2");
+    font-weight:400;
+    font-style:italic
+}
+@font-face{
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Light_Italic.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Light_Italic.woff2) format("woff2");
+    font-weight:300;
+    font-style:italic
+}
+@font-face{
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Semibold_Italic.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Semibold_Italic.woff2) format("woff2");
+    font-weight:500;
+    font-style:italic
+}
+@font-face{
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Thin_Italic.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Thin_Italic.woff2) format("woff2");
+    font-weight:100;
+    font-style:italic
+}
+@font-face{
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Ultra_Italic.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Ultra_Italic.woff2) format("woff2");
+    font-weight:800;
+    font-style:italic
+}
+@font-face{
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Black.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Black.woff2) format("woff2");
+    font-weight:700;
+    font-style:normal
+}
+@font-face{
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Black_Italic.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Black_Italic.woff2) format("woff2");
+    font-weight:700;
+    font-style:italic
+}
+@font-face{
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Bold.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Bold.woff2) format("woff2");
+    font-weight:600;
+    font-style:normal
+}
+@font-face{
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Bold_Italic.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Bold_Italic.woff2) format("woff2");
+    font-weight:600;
+    font-style:italic
+}
+@font-face{
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Italic.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Italic.woff2) format("woff2");
+    font-weight:400;
+    font-style:italic
+}
+@font-face{
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Light.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Light.woff2) format("woff2");
+    font-weight:300;
+    font-style:normal
+}
+@font-face{
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Light_Italic.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Light_Italic.woff2) format("woff2");
+    font-weight:300;
+    font-style:italic
+}
+@font-face{
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Regular.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Regular.woff2) format("woff2");
+    font-weight:400;
+    font-style:normal
+}
+@font-face{
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Semibold.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Semibold.woff2) format("woff2");
+    font-weight:500;
+    font-style:normal
+}
+@font-face{
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Semibold_Italic.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Semibold_Italic.woff2) format("woff2");
+    font-weight:500;
+    font-style:italic
+}
+@font-face{
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Thin.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Thin.woff2) format("woff2");
+    font-weight:100;
+    font-style:normal
+}
+@font-face{
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Thin_Italic.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Thin_Italic.woff2) format("woff2");
+    font-weight:100;
+    font-style:italic
+}
+@font-face{
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Black.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Black.woff2) format("woff2");
+    font-weight:700;
+    font-style:normal
+}
+@font-face{
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Bold.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Bold.woff2) format("woff2");
+    font-weight:600;
+    font-style:normal
+}
+@font-face{
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Light.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Light.woff2) format("woff2");
+    font-weight:300;
+    font-style:normal
+}
+@font-face{
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Regular.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Regular.woff2) format("woff2");
+    font-weight:400;
+    font-style:normal
+}
+@font-face{
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Semibold.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Semibold.woff2) format("woff2");
+    font-weight:500;
+    font-style:normal
+}
+@font-face{
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Thin.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Thin.woff2) format("woff2");
+    font-weight:100;
+    font-style:normal
+}
+@font-face{
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Ultra.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Ultra.woff2) format("woff2");
+    font-weight:800;
+    font-style:normal
+}
+@font-face{
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Black_Italic.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Black_Italic.woff2) format("woff2");
+    font-weight:700;
+    font-style:italic
+}
+@font-face{
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Bold_Italic.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Bold_Italic.woff2) format("woff2");
+    font-weight:600;
+    font-style:italic
+}
+@font-face{
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Italic.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Italic.woff2) format("woff2");
+    font-weight:400;
+    font-style:italic
+}
+@font-face{
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Light_Italic.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Light_Italic.woff2) format("woff2");
+    font-weight:300;
+    font-style:italic
+}
+@font-face{
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Semibold_Italic.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Semibold_Italic.woff2) format("woff2");
+    font-weight:500;
+    font-style:italic
+}
+@font-face{
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Thin_Italic.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Thin_Italic.woff2) format("woff2");
+    font-weight:100;
+    font-style:italic
+}
+@font-face{
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Ultra_Italic.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Ultra_Italic.woff2) format("woff2");
+    font-weight:800;
+    font-style:italic
+}
+@font-face{
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Black.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Black.woff2) format("woff2");
+    font-weight:700;
+    font-style:normal
+}
+@font-face{
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Black_Italic.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Black_Italic.woff2) format("woff2");
+    font-weight:700;
+    font-style:italic
+}
+@font-face{
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Bold.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Bold.woff2) format("woff2");
+    font-weight:600;
+    font-style:normal
+}
+@font-face{
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Bold_Italic.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Bold_Italic.woff2) format("woff2");
+    font-weight:600;
+    font-style:italic
+}
+@font-face{
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Italic.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Italic.woff2) format("woff2");
+    font-weight:400;
+    font-style:italic
+}
+@font-face{
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Light.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Light.woff2) format("woff2");
+    font-weight:300;
+    font-style:normal
+}
+@font-face{
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Light_Italic.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Light_Italic.woff2) format("woff2");
+    font-weight:300;
+    font-style:italic
+}
+@font-face{
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Regular.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Regular.woff2) format("woff2");
+    font-weight:400;
+    font-style:normal
+}
+@font-face{
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Semibold.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Semibold.woff2) format("woff2");
+    font-weight:500;
+    font-style:normal
+}
+@font-face{
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Semibold_Italic.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Semibold_Italic.woff2) format("woff2");
+    font-weight:500;
+    font-style:italic
+}
+@font-face{
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Thin.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Thin.woff2) format("woff2");
+    font-weight:100;
+    font-style:normal
+}
+@font-face{
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Thin_Italic.woff) format("woff"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Thin_Italic.woff2) format("woff2");
+    font-weight:100;
+    font-style:italic
+}
+@font-face{
+    font-family:Circular;
+    src:url(/dam/fonts/circular/lineto-circular-book-c.eot);
+    src:url(/dam/fonts/circular/lineto-circular-book-c.eot?#iefix) format("embedded-opentype"),url(/dam/fonts/circular/lineto-circular-book-c.woff) format("woff"),url(/dam/fonts/circular/lineto-circular-book-c.ttf) format("truetype"),url(/dam/fonts/circular/lineto-circular-book-c.svg#Circular-Book) format("svg");
+    font-weight:400;
+    font-style:normal
+}
+@font-face{
+    font-family:Circular;
+    src:url(/dam/fonts/circular/lineto-circular-medium-c.eot);
+    src:url(/dam/fonts/circular/lineto-circular-medium-c.eot?#iefix) format("embedded-opentype"),url(/dam/fonts/circular/lineto-circular-medium-c.woff) format("woff"),url(/dam/fonts/circular/lineto-circular-medium-c.ttf) format("truetype"),url(/dam/fonts/circular/lineto-circular-medium-c.svg#Circular-Medium) format("svg");
+    font-weight:500;
+    font-style:normal
+}
+@font-face{
+    font-family:Circular;
+    src:url(/dam/fonts/circular/lineto-circular-bold-c.eot);
+    src:url(/dam/fonts/circular/lineto-circular-bold-c.eot?#iefix) format("embedded-opentype"),url(/dam/fonts/circular/lineto-circular-bold-c.woff) format("woff"),url(/dam/fonts/circular/lineto-circular-bold-c.ttf) format("truetype"),url(/dam/fonts/circular/lineto-circular-bold-c.svg#Circular-Bold) format("svg");
+    font-weight:600;
+    font-style:normal
+}
+@font-face{
+    font-family:Circular;
+    src:url(/dam/fonts/circular/lineto-circular-black-c.eot);
+    src:url(/dam/fonts/circular/lineto-circular-black-c.eot?#iefix) format("embedded-opentype"),url(/dam/fonts/circular/lineto-circular-black-c.woff) format("woff"),url(/dam/fonts/circular/lineto-circular-black-c.ttf) format("truetype"),url(/dam/fonts/circular/lineto-circular-black-c.svg#Circular-Black) format("svg");
+    font-weight:800;
+    font-style:normal
+}
+@font-face{
+    font-family:Circular;
+    src:url(/dam/fonts/circular/lineto-circular-bookitalic-c.eot);
+    src:url(/dam/fonts/circular/lineto-circular-bookitalic-c.eot?#iefix) format("embedded-opentype"),url(/dam/fonts/circular/lineto-circular-bookitalic-c.woff) format("woff"),url(/dam/fonts/circular/lineto-circular-bookitalic-c.ttf) format("truetype"),url(/dam/fonts/circular/lineto-circular-bookitalic-c.svg#Circular-Bookitalic) format("svg");
+    font-weight:400;
+    font-style:italic
+}
+@font-face{
+    font-family:Circular;
+    src:url(/dam/fonts/circular/lineto-circular-mediumitalic-c.eot);
+    src:url(/dam/fonts/circular/lineto-circular-mediumitalic-c.eot?#iefix) format("embedded-opentype"),url(/dam/fonts/circular/lineto-circular-mediumitalic-c.woff) format("woff"),url(/dam/fonts/circular/lineto-circular-mediumitalic-c.ttf) format("truetype"),url(/dam/fonts/circular/lineto-circular-mediumitalic-c.svg#Circular-Mediumitalic) format("svg");
+    font-weight:500;
+    font-style:italic
+}
+@font-face{
+    font-family:Circular;
+    src:url(/dam/fonts/circular/lineto-circular-bolditalic-c.eot);
+    src:url(/dam/fonts/circular/lineto-circular-bolditalic-c.eot?#iefix) format("embedded-opentype"),url(/dam/fonts/circular/lineto-circular-bolditalic-c.woff) format("woff"),url(/dam/fonts/circular/lineto-circular-bolditalic-c.ttf) format("truetype"),url(/dam/fonts/circular/lineto-circular-bolditalic-c.svg#Circular-Bolditalic) format("svg");
+    font-weight:600;
+    font-style:italic
+}
+@font-face{
+    font-family:Circular;
+    src:url(/dam/fonts/circular/lineto-circular-blackitalic-c.eot);
+    src:url(/dam/fonts/circular/lineto-circular-blackitalic-c.eot?#iefix) format("embedded-opentype"),url(/dam/fonts/circular/lineto-circular-blackitalic-c.woff) format("woff"),url(/dam/fonts/circular/lineto-circular-blackitalic-c.ttf) format("truetype"),url(/dam/fonts/circular/lineto-circular-blackitalic-c.svg#Circular-Blackitalic) format("svg");
+    font-weight:800;
+    font-style:italic
+}
+.icon{
+    vertical-align:middle;
+    display:inline-block;
+    background-repeat:no-repeat;
+    background-position:0 0
+}
+.icon.atlassian-gray{
+    background-image:url(/assets/img/icons/atlassian-gray.svg);
+    width:149px;
+    height:31px
+}
+.icon.atlassian-logo-and-text{
+    background-image:url(/assets/img/icons/atlassian-logo-and-text.svg);
+    width:194px;
+    height:41px
+}
+.icon.bamboo-symbol{
+    background-image:url(/assets/img/icons/bamboo-symbol.svg);
+    width:47px;
+    height:49px
+}
+.icon.bamboo{
+    background-image:url(/assets/img/icons/bamboo.svg);
+    width:190px;
+    height:37px
+}
+.icon.bitbucket-symbol{
+    background-image:url(/assets/img/icons/bitbucket-symbol.svg);
+    width:40px;
+    height:46px
+}
+.icon.bitbucket{
+    background-image:url(/assets/img/icons/bitbucket.svg);
+    width:205px;
+    height:35px
+}
+.icon.confluence-questions{
+    background-image:url(/assets/img/icons/confluence-questions.svg);
+    width:420px;
+    height:39px
+}
+.icon.confluence-symbol{
+    background-image:url(/assets/img/icons/confluence-symbol.svg);
+    width:215px;
+    height:192px
+}
+.icon.confluence{
+    background-image:url(/assets/img/icons/confluence.svg);
+    width:238px;
+    height:36px
+}
+.icon.crowd{
+    background-image:url(/assets/img/icons/crowd.svg);
+    width:147px;
+    height:33px
+}
+.icon.crucible{
+    background-image:url(/assets/img/icons/crucible.svg);
+    width:179px;
+    height:34px
+}
+.icon.devtools{
+    background-image:url(/assets/img/icons/devtools.svg);
+    width:169px;
+    height:32px
+}
+.icon.expert-badge{
+    background-image:url(/assets/img/icons/expert-badge.svg);
+    width:18px;
+    height:18px
+}
+.icon.fisheye{
+    background-image:url(/assets/img/icons/fisheye.svg);
+    width:176px;
+    height:41px
+}
+.icon.hipchat-gray{
+    background-image:url(/assets/img/icons/hipchat-gray.svg);
+    width:115px;
+    height:26px
+}
+.icon.hipchat-nologo{
+    background-image:url(/assets/img/icons/hipchat-nologo.svg);
+    width:185px;
+    height:42px
+}
+.icon.hipchat-symbol{
+    background-image:url(/assets/img/icons/hipchat-symbol.svg);
+    width:57px;
+    height:54px
+}
+.icon.hipchat{
+    background-image:url(/assets/img/icons/hipchat.svg);
+    width:182px;
+    height:58px
+}
+.icon.icon-agile-planning{
+    background-image:url(/assets/img/icons/icon-agile-planning.svg);
+    width:24px;
+    height:24px
+}
+.icon.icon-customizable{
+    background-image:url(/assets/img/icons/icon-customizable.svg);
+    width:24px;
+    height:24px
+}
+.icon.icon-flexible-workflows{
+    background-image:url(/assets/img/icons/icon-flexible-workflows.svg);
+    width:24px;
+    height:24px
+}
+.icon.icon-issue-prioritization{
+    background-image:url(/assets/img/icons/icon-issue-prioritization.svg);
+    width:24px;
+    height:24px
+}
+.icon.icon-multiple-deployment{
+    background-image:url(/assets/img/icons/icon-multiple-deployment.svg);
+    width:24px;
+    height:24px
+}
+.icon.icon-plug-play{
+    background-image:url(/assets/img/icons/icon-plug-play.svg);
+    width:24px;
+    height:24px
+}
+.icon.icon-rich-apis{
+    background-image:url(/assets/img/icons/icon-rich-apis.svg);
+    width:24px;
+    height:24px
+}
+.icon.icon_cancel_red{
+    background-image:url(/assets/img/icons/icon_cancel_red.svg);
+    width:27px;
+    height:27px
+}
+.icon.icon_cancel_red_solid{
+    background-image:url(/assets/img/icons/icon_cancel_red_solid.svg);
+    width:23px;
+    height:23px
+}
+.icon.icon_check_green{
+    background-image:url(/assets/img/icons/icon_check_green.svg);
+    width:27px;
+    height:27px
+}
+.icon.icon_check_green_solid{
+    background-image:url(/assets/img/icons/icon_check_green_solid.svg);
+    width:23px;
+    height:23px
+}
+.icon.icon_circle_triangle_small{
+    background-image:url(/assets/img/icons/icon_circle_triangle_small.svg);
+    width:24px;
+    height:24px
+}
+.icon.icon_close_blue{
+    background-image:url(/assets/img/icons/icon_close_blue.svg);
+    width:13px;
+    height:13px
+}
+.icon.icon_cloud_small{
+    background-image:url(/assets/img/icons/icon_cloud_small.svg);
+    width:24px;
+    height:14px
+}
+.icon.icon_collaboration_small{
+    background-image:url(/assets/img/icons/icon_collaboration_small.svg);
+    width:22px;
+    height:23px
+}
+.icon.icon_continuous_small{
+    background-image:url(/assets/img/icons/icon_continuous_small.svg);
+    width:23px;
+    height:18px
+}
+.icon.icon_down_blue{
+    background-image:url(/assets/img/icons/icon_down_blue.svg);
+    width:11px;
+    height:6px
+}
+.icon.icon_down_white{
+    background-image:url(/assets/img/icons/icon_down_white.svg);
+    width:11px;
+    height:6px
+}
+.icon.icon_versioning_small{
+    background-image:url(/assets/img/icons/icon_versioning_small.svg);
+    width:24px;
+    height:24px
+}
+.icon.icon_workflow_small{
+    background-image:url(/assets/img/icons/icon_workflow_small.svg);
+    width:24px;
+    height:24px
+}
+.icon.jira-servicedesk{
+    background-image:url(/assets/img/icons/jira-servicedesk.svg);
+    width:336px;
+    height:43px
+}
+.icon.jira-symbol{
+    background-image:url(/assets/img/icons/jira-symbol.svg);
+    width:50px;
+    height:66px
+}
+.icon.jira{
+    background-image:url(/assets/img/icons/jira.svg);
+    width:112px;
+    height:43px
+}
+.icon.search-small{
+    background-image:url(/assets/img/icons/search-small.svg);
+    width:30px;
+    height:30px
+}
+.icon.small-play{
+    background-image:url(/assets/img/icons/small-play.svg);
+    width:19px;
+    height:19px
+}
+.icon.sourcetree{
+    background-image:url(/assets/img/icons/sourcetree.svg);
+    width:234px;
+    height:37px
+}
+.icon.stash-symbol{
+    background-image:url(/assets/img/icons/stash-symbol.svg);
+    width:191px;
+    height:191px
+}
+.icon.stash{
+    background-image:url(/assets/img/icons/stash.svg);
+    width:137px;
+    height:36px
+}
+.icon.time{
+    background-image:url(/assets/img/icons/time.svg);
+    width:15px;
+    height:15px
+}
+.icon.video-play-circle-white{
+    background-image:url(/assets/img/icons/video-play-circle-white.svg);
+    width:70px;
+    height:70px
+}
+.icon.imkt-navbar__charlie-logo{
+    background-image:url(/assets/img/icons/imkt/imkt-navbar__charlie-logo.svg);
+    width:182px;
+    height:182px
+}
+.icon.map-marker{
+    background-image:url(/assets/img/icons/layout/map-marker.svg);
+    width:41px;
+    height:54px
+}
+.icon.atlassian_certification{
+    background-image:url(/assets/img/icons/logo/atlassian_certification.svg);
+    width:360px;
+    height:40px
+}
+.icon.bamboo_rgb_blue{
+    background-image:url(/assets/img/icons/logo/bamboo_rgb_blue.svg);
+    width:801px;
+    height:267px
+}
+.icon.bitbucket_rgb_blue{
+    background-image:url(/assets/img/icons/logo/bitbucket_rgb_blue.svg);
+    width:863px;
+    height:267px
+}
+.icon.clover_rgb_blue{
+    background-image:url(/assets/img/icons/logo/clover_rgb_blue.svg);
+    width:628px;
+    height:267px
+}
+.icon.confluence_rgb_blue{
+    background-image:url(/assets/img/icons/logo/confluence_rgb_blue.svg);
+    width:984px;
+    height:267px
+}
+.icon.crucible_rgb_blue{
+    background-image:url(/assets/img/icons/logo/crucible_rgb_blue.svg);
+    width:759px;
+    height:267px
+}
+.icon.fisheye_rgb_blue{
+    background-image:url(/assets/img/icons/logo/fisheye_rgb_blue.svg);
+    width:747px;
+    height:267px
+}
+.icon.github_gray{
+    background-image:url(/assets/img/icons/logo/github_gray.svg);
+    width:74px;
+    height:20px
+}
+.icon.github_issues_gray{
+    background-image:url(/assets/img/icons/logo/github_issues_gray.svg);
+    width:942px;
+    height:143px
+}
+.icon.hipchat_rgb_blue{
+    background-image:url(/assets/img/icons/logo/hipchat_rgb_blue.svg);
+    width:785px;
+    height:267px
+}
+.icon.jira-software_gray{
+    background-image:url(/assets/img/icons/logo/jira-software_gray.svg);
+    width:1150px;
+    height:267px
+}
+.icon.jira_core_rgb_blue{
+    background-image:url(/assets/img/icons/logo/jira_core_rgb_blue.svg);
+    width:798px;
+    height:267px
+}
+.icon.jira_software_gray{
+    background-image:url(/assets/img/icons/logo/jira_software_gray.svg);
+    width:161px;
+    height:25px
+}
+.icon.jira_software_rgb_blue{
+    background-image:url(/assets/img/icons/logo/jira_software_rgb_blue.svg);
+    width:1136px;
+    height:267px
+}
+.icon.jiraservicedesk_rgb_blue{
+    background-image:url(/assets/img/icons/logo/jiraservicedesk_rgb_blue.svg);
+    width:1401px;
+    height:267px
+}
+.icon.sourcetree_rgb_blue{
+    background-image:url(/assets/img/icons/logo/sourcetree_rgb_blue.svg);
+    width:976px;
+    height:267px
+}
+.icon.email{
+    background-image:url(/assets/img/icons/social-icons/email.svg);
+    width:40px;
+    height:40px
+}
+.icon.facebook-adg3-blue{
+    background-image:url(/assets/img/icons/social-icons/facebook-adg3-blue.svg);
+    width:39px;
+    height:39px
+}
+.icon.facebook-adg3-darkblue{
+    background-image:url(/assets/img/icons/social-icons/facebook-adg3-darkblue.svg);
+    width:32px;
+    height:32px
+}
+.icon.facebook-badge{
+    background-image:url(/assets/img/icons/social-icons/facebook-badge.svg);
+    width:266px;
+    height:266px
+}
+.icon.facebook-circle-blue{
+    background-image:url(/assets/img/icons/social-icons/facebook-circle-blue.svg);
+    width:46px;
+    height:46px
+}
+.icon.facebook-gray{
+    background-image:url(/assets/img/icons/social-icons/facebook-gray.svg);
+    width:19px;
+    height:22px
+}
+.icon.facebook-round-adg3-blue{
+    background-image:url(/assets/img/icons/social-icons/facebook-round-adg3-blue.svg);
+    width:39px;
+    height:39px
+}
+.icon.facebook-round-gray-adg{
+    background-image:url(/assets/img/icons/social-icons/facebook-round-gray-adg.svg);
+    width:26px;
+    height:26px
+}
+.icon.facebook-round-gray{
+    background-image:url(/assets/img/icons/social-icons/facebook-round-gray.svg);
+    width:26px;
+    height:26px
+}
+.icon.facebook-round-white{
+    background-image:url(/assets/img/icons/social-icons/facebook-round-white.svg);
+    width:20px;
+    height:20px
+}
+.icon.facebook-white{
+    background-image:url(/assets/img/icons/social-icons/facebook-white.svg);
+    width:8px;
+    height:15px
+}
+.icon.googleplus-round-gray-adg{
+    background-image:url(/assets/img/icons/social-icons/googleplus-round-gray-adg.svg);
+    width:26px;
+    height:26px
+}
+.icon.googleplus-round-gray{
+    background-image:url(/assets/img/icons/social-icons/googleplus-round-gray.svg);
+    width:26px;
+    height:26px
+}
+.icon.gplus-gray{
+    background-image:url(/assets/img/icons/social-icons/gplus-gray.svg);
+    width:23px;
+    height:21px
+}
+.icon.linked-in{
+    background-image:url(/assets/img/icons/social-icons/linked-in.svg);
+    width:12px;
+    height:12px
+}
+.icon.linkedin-adg3-blue{
+    background-image:url(/assets/img/icons/social-icons/linkedin-adg3-blue.svg);
+    width:39px;
+    height:39px
+}
+.icon.linkedin-adg3-darkblue{
+    background-image:url(/assets/img/icons/social-icons/linkedin-adg3-darkblue.svg);
+    width:32px;
+    height:32px
+}
+.icon.linkedin-circle-blue{
+    background-image:url(/assets/img/icons/social-icons/linkedin-circle-blue.svg);
+    width:46px;
+    height:46px
+}
+.icon.linkedin-round-adg3-blue{
+    background-image:url(/assets/img/icons/social-icons/linkedin-round-adg3-blue.svg);
+    width:39px;
+    height:39px
+}
+.icon.linkedin-round-gray-adg{
+    background-image:url(/assets/img/icons/social-icons/linkedin-round-gray-adg.svg);
+    width:20px;
+    height:20px
+}
+.icon.linkedin-round-white{
+    background-image:url(/assets/img/icons/social-icons/linkedin-round-white.svg);
+    width:20px;
+    height:20px
+}
+.icon.pinterest-adg3-blue{
+    background-image:url(/assets/img/icons/social-icons/pinterest-adg3-blue.svg);
+    width:39px;
+    height:39px
+}
+.icon.pinterest-badge{
+    background-image:url(/assets/img/icons/social-icons/pinterest-badge.svg);
+    width:36px;
+    height:36px
+}
+.icon.pinterest-round-adg3-blue{
+    background-image:url(/assets/img/icons/social-icons/pinterest-round-adg3-blue.svg);
+    width:39px;
+    height:39px
+}
+.icon.twitter-adg3-blue{
+    background-image:url(/assets/img/icons/social-icons/twitter-adg3-blue.svg);
+    width:39px;
+    height:39px
+}
+.icon.twitter-adg3-darkblue{
+    background-image:url(/assets/img/icons/social-icons/twitter-adg3-darkblue.svg);
+    width:32px;
+    height:32px
+}
+.icon.twitter-circle-blue{
+    background-image:url(/assets/img/icons/social-icons/twitter-circle-blue.svg);
+    width:46px;
+    height:46px
+}
+.icon.twitter-gray{
+    background-image:url(/assets/img/icons/social-icons/twitter-gray.svg);
+    width:25px;
+    height:22px
+}
+.icon.twitter-round-adg3-blue{
+    background-image:url(/assets/img/icons/social-icons/twitter-round-adg3-blue.svg);
+    width:39px;
+    height:39px
+}
+.icon.twitter-round-gray-adg{
+    background-image:url(/assets/img/icons/social-icons/twitter-round-gray-adg.svg);
+    width:26px;
+    height:26px
+}
+.icon.twitter-round-gray{
+    background-image:url(/assets/img/icons/social-icons/twitter-round-gray.svg);
+    width:26px;
+    height:26px
+}
+.icon.twitter-round-white{
+    background-image:url(/assets/img/icons/social-icons/twitter-round-white.svg);
+    width:20px;
+    height:20px
+}
+.icon.twitter-white{
+    background-image:url(/assets/img/icons/social-icons/twitter-white.svg);
+    width:15px;
+    height:13px
+}
+.icon.twitter{
+    background-image:url(/assets/img/icons/social-icons/twitter.svg);
+    width:14px;
+    height:11px
+}
+.icon.youtube-round-gray-adg{
+    background-image:url(/assets/img/icons/social-icons/youtube-round-gray-adg.svg);
+    width:24px;
+    height:24px
+}
+.align-top{
+    vertical-align:top
+}
+.align-middle{
+    vertical-align:middle
+}
+.align-bottom{
+    vertical-align:bottom
+}
+.block{
+    display:block
+}
+.center{
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center
+}
+.hidden{
+    visibility:hidden
+}
+@media only screen and (min-width:801px){
+    .hero-illustration img{
+        position:absolute;
+        z-index:4
+    }
+}
+.banner-curve,.products{
+    position:relative;
+    z-index:3
+}
+.banner-curve{
+    padding-top:20px
+}
+.plane1,.plane2,.plane3{
+    position:absolute;
+    z-index:1
+}
+.plane1{
+    bottom:-5%;
+    display:none
+}
+@media only screen and (max-width:960px){
+    .plane1{
+        bottom:-5%
+    }
+}
+@media only screen and (min-width:801px){
+    .plane1{
+        display:block
+    }
+}
+.plane2{
+    display:none;
+    right:44%;
+    top:12%
+}
+@media only screen and (min-width:801px){
+    .plane2{
+        display:block
+    }
+}
+.plane3{
+    bottom:46%;
+    display:none;
+    right:14%
+}
+@media only screen and (max-width:1260px){
+    .plane3{
+        bottom:65%;
+        right:-3%
+    }
+}
+@media only screen and (min-width:801px){
+    .plane3{
+        display:block
+    }
+    .column.product-alignment-left,.product-alignment-left{
+        left:-10px
+    }
+}
+.column.feature-box{
+    border-radius:6px;
+    position:relative;
+    top:0;
+    transition:top 150ms ease-in
+}
+.column.feature-box:hover{
+    top:-3px;
+    transition:top 150ms ease-in
+}
+.column.feature-box .column-link{
+    border-radius:6px;
+    box-shadow:0 0 0 rgba(37,56,88,0);
+    display:block;
+    padding:32px 32px 36px;
+    transition:box-shadow .2s ease-in
+}
+.column.feature-box .column-link:hover{
+    box-shadow:0 4px 12px rgba(37,56,88,.25);
+    transition:box-shadow .2s ease-in
+}
+.column.feature-box .column-link .image-heading-textblock{
+    margin-bottom:0
+}
+.link-arrow h4::after{
+    background-image:url(data:image/svg+xml;
+    base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTJweCIgaGVpZ2h0PSI4cHgiIHZpZXdCb3g9IjAgMCAxMiA4IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCA0MS4xICgzNTM3NikgLSBodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2ggLS0+CiAgICA8dGl0bGU+RmlsbCAxPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGRlZnM+PC9kZWZzPgogICAgPGcgaWQ9IkhvbWUiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSJEZXNrdG9wIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNzAxLjAwMDAwMCwgLTE3MzkuMDAwMDAwKSIgZmlsbD0iIzAwNTdEOCI+CiAgICAgICAgICAgIDxnIGlkPSJHcm91cC0xMS1Db3B5LTIiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDYxMS44MDQ2ODgsIDE3MjkuNzEwOTM4KSI+CiAgICAgICAgICAgICAgICA8cGF0aCBkPSJNOTcuMTAxNDQ4MSwxMC4xMTc2NDY4IEw5Ni4wNDA0NDgxLDExLjE3ODY0NjggTDk3Ljc2MDQ0ODEsMTIuODk3NjQ2OCBMOTAuNTcxNDQ4MSwxMi44OTc2NDY4IEM5MC4xNTc0NDgxLDEyLjg5NzY0NjggODkuODIxNDQ4MSwxMy4yMzM2NDY4IDg5LjgyMTQ0ODEsMTMuNjQ3NjQ2OCBDODkuODIxNDQ4MSwxNC4wNjE2NDY4IDkwLjE1NzQ0ODEsMTQuMzk3NjQ2OCA5MC41NzE0NDgxLDE0LjM5NzY0NjggTDk3Ljc2MDQ0ODEsMTQuMzk3NjQ2OCBMOTYuMDQwNDQ4MSwxNi4xMTc2NDY4IEw5Ny4xMDE0NDgxLDE3LjE3ODY0NjggTDEwMC42MzE0NDgsMTMuNjQ3NjQ2OCBMOTcuMTAxNDQ4MSwxMC4xMTc2NDY4IFoiIGlkPSJGaWxsLTEiPjwvcGF0aD4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+);
+    content:"";
+    display:inline-block;
+    height:8px;
+    margin-left:9px;
+    transition:margin-left .2s ease-out;
+    width:12px
+}
+.link-arrow h4:hover::after{
+    margin-left:14px;
+    transition:margin-left .2s ease-in
+}
+.customer-card .column__background{
+    box-shadow:0 5px 20px rgba(0,0,0,.05);
+    padding:0 0 24px
+}
+.customer-card .column__background .component--textblock,.customer-card .column__background .component--video-link,.customer-card .column__background .component__link{
+    padding-left:24px;
+    padding-right:24px
+}
+.text-overlap-fix{
+    z-index:9
+}
+.plane1{
+    right:65%
+}
+main{
+    overflow:hidden
+}
+div.products .h5{
+    margin-bottom:23px
+}
+div.products .product{
+    margin-bottom:50px;
+    padding-bottom:41px;
+    position:relative
+}
+@media only screen and (max-width:640px){
+    div.products .product{
+        margin-bottom:5%
+    }
+}
+.scale-1-2{
+    position:relative;
+    z-index:10
+}
+@media only screen and (max-width:1130px){
+    .scale-1-2{
+        -ms-transform:scale(1.1);
+        transform:scale(1.1)
+    }
+}
+@media only screen and (min-width:801px){
+    .scale-1-2{
+        -ms-transform:scale(1.2);
+        transform:scale(1.2)
+    }
+}
+@media only screen and (max-width:800px){
+    .scale-1-2{
+        -ms-transform:scale(1);
+        transform:scale(1)
+    }
+}
+.transform-origin-bottom-left{
+    -ms-transform-origin:left bottom;
+    transform-origin:left bottom
+}
+.customer-section>.row>.column{
+    padding:0
+}
+.customer-block{
+    -ms-flex-align:center;
+    align-items:center;
+    border:3px solid #fff;
+    display:-ms-flexbox;
+    display:flex;
+    padding:20px
+}
+.customer-block .column{
+    opacity:0;
+    transform:translate3d(0,-20px,0);
+    z-index:1
+}
+.customer-block:hover .column{
+    opacity:1;
+    transition:all .3s;
+    transform:translate3d(0,0,0)
+}
+.customer-block:hover::after{
+    opacity:1
+}
+.customer-block::after{
+    background:rgba(37,56,88,.8);
+    content:"";
+    display:block;
+    height:100%;
+    width:100%;
+    opacity:0;
+    position:absolute;
+    top:0;
+    left:0;
+    transition:all .3s
+}
+.customer-block .component.component--video-link a{
+    -ms-flex-align:center;
+    align-items:center;
+    display:-ms-flexbox;
+    display:flex
+}
+.customer-block .component.component--video-link a:hover{
+    text-decoration:none
+}

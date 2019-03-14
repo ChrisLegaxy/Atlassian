@@ -1,0 +1,59 @@
+.showcase
+{
+    padding: 96px 0;
+    background-image: url("https://wac-cdn.atlassian.com/dam/jcr:4f6bda21-a0c7-49ae-abbe-464dbe2432c1/Summit2019-WACTakeover.svg?cdnVersion=ld");
+    background-position: bottom-center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-color: #172B4D;
+    color: white;
+}
+
+.showcase__container
+{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container__item
+{
+    padding: 16px;
+    padding-top: 96px;
+    width: 66.66666%;
+    margin: 0 auto;
+}
+
+.showcase__heading
+{
+    font-family: 'Charlie Display',-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Droid Sans,Helvetica Neue,sans-serif;
+    font-weight: 500;
+    font-size: 2.75rem;
+    margin-bottom: 16px;
+    letter-spacing: 0;
+}
+
+.showcase__description
+{
+    font-size: 1.25rem;
+    letter-spacing: .3px;
+    line-height: 1.4;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.showcase__register-button
+{
+    padding: 7px 16px;
+}
+
+.showcase__register-button-link
+{
+    color: #FFF;
+    border: 1px solid blue;
+    border-radius: 3px;
+    border-color: #00C7E5;
+    width: 136px;
+    padding: 7px 16px;
+    font-weight: 500;
+}
