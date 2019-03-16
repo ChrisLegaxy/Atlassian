@@ -313,7 +313,7 @@ body {
   font-weight: 400;
 }
 
-.tools-list__items .tools-list__description .learn-more__link {
+.tools-list__items .tools-list__learn-more .learn-more__link {
   color: #0052CC;
   text-decoration: none;
 }
