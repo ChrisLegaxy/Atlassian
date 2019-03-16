@@ -1,0 +1,72 @@
+.tools-header
+{
+    padding-top: 16px;
+}
+
+.tools-header__container
+{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tools-header__box
+{
+    text-align: center;
+    min-height: 1px;
+    position: relative;
+    padding: 16px;
+    padding-top: 64px;
+
+    & .tools-header__heading
+    {
+        color: #253858;
+        font-size: 2.25rem;
+        line-height: 1.33333333;
+        margin-bottom: 24px;
+        font-weight: 500;
+    }
+
+    & .tools-header__description
+    {
+        color: #253858; 
+        font-size: 1.25rem;
+        letter-spacing: .3px;
+        line-height: 1.4;
+        font-weight: 400;
+    }
+}
+
+/* Line Separation After Tools Header */
+
+.line-separation
+{
+    padding: 16px 0;
+    position: relative;
+
+    & .line-separation__container
+    {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    & .line-separation__line-box-container
+    {
+        min-height: 1px;
+        position: relative;
+        padding: 16px;
+    }
+
+    & .line-separation__line
+    {
+        background: #0052CC;
+        height: 4px;
+        width: 140px;
+        margin: 0 auto;
+        border: 0em;
+    }
+}
+
+
+
+
+
