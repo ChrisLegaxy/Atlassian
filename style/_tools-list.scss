@@ -55,7 +55,10 @@
             margin-bottom: 24px;
             font-weight: 400;
         }
-        
+    }
+
+    & .tools-list__learn-more
+    {
         & .learn-more__link
         {
             color: #0052CC;
@@ -63,6 +66,8 @@
         }
     }
 }
+
+
 
 .tools-list__col--4
 {
