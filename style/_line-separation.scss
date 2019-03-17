@@ -1,0 +1,56 @@
+/* Line Separation After Tools Header */
+
+.line-separation-one
+{
+    padding: 16px 0;
+    position: relative;
+
+    & .line-separation-one__container
+    {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    & .line-separation-one__line-box-container
+    {
+        min-height: 1px;
+        position: relative;
+        padding: 16px;
+    }
+
+    & .line-separation-one__line
+    {
+        background: #0052CC;
+        height: 4px;
+        width: 140px;
+        margin: 0 auto;
+        border: 0em;
+    }
+}
+
+.line-separation-two
+{
+    padding: 16px 0;
+    position: relative;
+
+    & .line-separation-two__container
+    {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    & .line-separation-two__line-box-container
+    {
+        min-height: 1px;
+        position: relative;
+        padding: 16px;
+    }
+
+    & .line-separation-two__line
+    {
+        background: #DFE1E5;
+        border: 0;
+        height: 2px;
+    }
+}
+

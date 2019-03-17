@@ -36,35 +36,7 @@
     }
 }
 
-/* Line Separation After Tools Header */
 
-.line-separation
-{
-    padding: 16px 0;
-    position: relative;
-
-    & .line-separation__container
-    {
-        max-width: 1440px;
-        margin: 0 auto;
-    }
-
-    & .line-separation__line-box-container
-    {
-        min-height: 1px;
-        position: relative;
-        padding: 16px;
-    }
-
-    & .line-separation__line
-    {
-        background: #0052CC;
-        height: 4px;
-        width: 140px;
-        margin: 0 auto;
-        border: 0em;
-    }
-}
 
 
 

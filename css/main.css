@@ -17,6 +17,53 @@ body {
   clear: both;
 }
 
+/* Line Separation After Tools Header */
+.line-separation-one {
+  padding: 16px 0;
+  position: relative;
+}
+
+.line-separation-one .line-separation-one__container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.line-separation-one .line-separation-one__line-box-container {
+  min-height: 1px;
+  position: relative;
+  padding: 16px;
+}
+
+.line-separation-one .line-separation-one__line {
+  background: #0052CC;
+  height: 4px;
+  width: 140px;
+  margin: 0 auto;
+  border: 0em;
+}
+
+.line-separation-two {
+  padding: 16px 0;
+  position: relative;
+}
+
+.line-separation-two .line-separation-two__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.line-separation-two .line-separation-two__line-box-container {
+  min-height: 1px;
+  position: relative;
+  padding: 16px;
+}
+
+.line-separation-two .line-separation-two__line {
+  background: #DFE1E5;
+  border: 0;
+  height: 2px;
+}
+
 /* Whole Navigation Bar */
 .global-nav {
   max-width: 1200px;
@@ -101,7 +148,7 @@ body {
 .showcase {
   padding: 96px 0;
   background-image: url("https://wac-cdn.atlassian.com/dam/jcr:4f6bda21-a0c7-49ae-abbe-464dbe2432c1/Summit2019-WACTakeover.svg?cdnVersion=ld");
-  background-position: bottom-center;
+  background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -234,31 +281,6 @@ body {
   letter-spacing: .3px;
   line-height: 1.4;
   font-weight: 400;
-}
-
-/* Line Separation After Tools Header */
-.line-separation {
-  padding: 16px 0;
-  position: relative;
-}
-
-.line-separation .line-separation__container {
-  max-width: 1440px;
-  margin: 0 auto;
-}
-
-.line-separation .line-separation__line-box-container {
-  min-height: 1px;
-  position: relative;
-  padding: 16px;
-}
-
-.line-separation .line-separation__line {
-  background: #0052CC;
-  height: 4px;
-  width: 140px;
-  margin: 0 auto;
-  border: 0em;
 }
 
 .tools-list {
@@ -411,5 +433,114 @@ body {
   font-weight: 500;
   text-decoration: none;
   border-radius: 3px;
+}
+
+.news {
+  padding: 16px 0;
+  padding-top: 32px;
+}
+
+.news__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+.news__heading {
+  width: 66.66666%;
+  padding: 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.news__image-container {
+  width: 25%;
+  padding: 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.news__image-box {
+  text-align: center;
+}
+
+.news__image {
+  width: 190px;
+  vertical-align: bottom;
+}
+
+.news__heading h3 {
+  font-size: 1.5rem;
+  line-height: 1.33333333;
+  margin-bottom: 16px;
+  color: #253858;
+  letter-spacing: .3px;
+  font-weight: 500;
+}
+
+.news__heading p {
+  color: #091E42;
+  font-size: 1rem;
+  line-height: 24px;
+  margin-bottom: 24px;
+  font-weight: 400;
+}
+
+.news__link {
+  color: #0052CC;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.powering-innovation {
+  padding: 16px 0;
+  padding-top: 32px;
+}
+
+.powering-innovation__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+.powering-innovation__heading-box {
+  text-align: center;
+  padding: 16px;
+  padding-bottom: 32px;
+  width: 83.33333%;
+  margin-left: 8.33333%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.powering-innovation__heading h2 {
+  font-size: 2.25rem;
+  line-height: 1.33333333;
+  color: #253858;
+  letter-spacing: 0;
+  font-weight: 500;
+}
+
+.powering-innovation__image-container {
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 16px;
+}
+
+.powering-innovation__image {
+  width: 100%;
+  margin-bottom: 16px;
+  vertical-align: bottom;
 }
 /*# sourceMappingURL=main.css.map */
