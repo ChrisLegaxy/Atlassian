@@ -146,11 +146,11 @@ body {
 }
 
 .showcase {
-  padding: 96px 0;
   background-image: url("https://wac-cdn.atlassian.com/dam/jcr:4f6bda21-a0c7-49ae-abbe-464dbe2432c1/Summit2019-WACTakeover.svg?cdnVersion=ld");
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 96px 0;
   text-align: center;
   background-color: #172B4D;
   color: white;
@@ -172,8 +172,9 @@ body {
   font-family: 'Charlie Display',-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Droid Sans,Helvetica Neue,sans-serif;
   font-weight: 500;
   font-size: 2.75rem;
-  margin-bottom: 16px;
   letter-spacing: 0;
+  line-height: 1.18181818;
+  margin-bottom: 16px;
 }
 
 .container__item .showcase__description {
@@ -300,26 +301,26 @@ body {
 }
 
 .tools-list__col {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   padding: 16px;
   width: 33.33333%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .tools-list__heading h5 {
-  margin-bottom: 23px;
   color: #42526E;
   font-size: .875rem;
   letter-spacing: 1px;
   line-height: 1.25;
   text-transform: uppercase;
   font-weight: 1000;
+  margin-bottom: 23px;
 }
 
 .tools-list__items {
+  height: 151px;
   margin-bottom: 50px;
   padding-bottom: 41px;
-  height: 151px;
 }
 
 .tools-list__items .title-image__image {
@@ -331,8 +332,8 @@ body {
 .tools-list__items .tools-list__description p {
   font-size: 1rem;
   line-height: 24px;
-  margin-bottom: 24px;
   font-weight: 400;
+  margin-bottom: 24px;
 }
 
 .tools-list__items .tools-list__learn-more .learn-more__link {
@@ -355,20 +356,20 @@ body {
 }
 
 .tools-list__items--and-more {
-  margin: 0;
   height: auto;
+  margin: 0;
   padding: 0;
 }
 
 .tools-list__items--and-more .and-more-head__heading {
+  color: #253858;
   font-size: 1.5rem;
   line-height: 1.33333333;
-  margin-bottom: 16px;
-  color: #253858;
   letter-spacing: .3px;
   font-weight: 500;
   text-decoration: none;
   display: inline-block;
+  margin-bottom: 16px;
 }
 
 .tools-list__items--and-more .tools-list__and-more-description p {
@@ -474,20 +475,20 @@ body {
 }
 
 .news__heading h3 {
+  color: #253858;
   font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: .3px;
   line-height: 1.33333333;
   margin-bottom: 16px;
-  color: #253858;
-  letter-spacing: .3px;
-  font-weight: 500;
 }
 
 .news__heading p {
   color: #091E42;
   font-size: 1rem;
   line-height: 24px;
-  margin-bottom: 24px;
   font-weight: 400;
+  margin-bottom: 24px;
 }
 
 .news__link {
