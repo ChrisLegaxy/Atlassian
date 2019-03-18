@@ -65,9 +65,12 @@ body {
 }
 
 /* Whole Navigation Bar */
-.global-nav {
+.header__container {
   max-width: 1200px;
-  margin: auto;
+  margin: 0 auto;
+}
+
+.global-nav {
   padding: 0 20px;
   line-height: 72px;
 }
@@ -159,13 +162,20 @@ body {
 .showcase__container {
   max-width: 1200px;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
 }
 
 .container__item {
   padding: 16px;
   padding-top: 96px;
   width: 66.66666%;
-  margin: 0 auto;
+  margin-left: 16.66666%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .container__item .showcase__heading {
@@ -185,14 +195,27 @@ body {
   margin-bottom: 24px;
 }
 
-.container__item .showcase__register-button-link {
+.container__item .showcase__register-button {
+  display: inline-block;
+  width: 136px;
+  height: 40px;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+.container__item .showcase__register-button .showcase__register-button-link {
   color: #FFF;
   border: 1px solid blue;
   border-radius: 3px;
   border-color: #00C7E5;
-  width: 136px;
-  padding: 7px 16px;
+  line-height: 38px;
+  width: 100%;
+  height: 100%;
+  padding: 0px 16px;
   font-weight: 500;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .feature {
@@ -543,5 +566,58 @@ body {
   width: 100%;
   margin-bottom: 16px;
   vertical-align: bottom;
+}
+
+.customer-review {
+  padding: 16px 0;
+}
+
+.customer-review__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+.customer-review-col {
+  width: 33.33333%;
+  padding: 16px;
+  border-radius: 4px;
+  -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
+          box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.card__image-box .card__image {
+  width: 100%;
+  margin-bottom: 16px;
+  height: 230px;
+}
+
+.card__description {
+  padding: 0px 40px 40px 40px;
+}
+
+.card__description .card__heading-image-box .card__heading-image {
+  width: 192px;
+  margin-top: 18px;
+  margin-bottom: 26px;
+  vertical-align: bottom;
+}
+
+.card__description .card__heading-description p {
+  font-size: 1rem;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+.card__description .card__link-box .link {
+  color: #0052CC;
+  text-decoration: none;
 }
 /*# sourceMappingURL=main.css.map */

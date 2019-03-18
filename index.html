@@ -15,35 +15,37 @@
 <body>
     <!-- Navigation Bar -->
     <header class="header">
-        <nav class="global-nav clearfix">
-            <!-- Left Nav -->
-            <div class="global-nav__left-nav">
-                <!-- Logo -->
-            <div class="left-nav__logo">
-                    <a class="logo__home-logo">
-                        <img class="home-logo__logo-image" src="https://wac-cdn.atlassian.com/dam/jcr:616e6748-ad8c-48d9-ae93-e49019ed5259/Atlassian-horizontal-blue-rgb.svg?cdnVersion=lb" alt="Atlassian-Logo">
-                    </a>
+        <div class="header__container">
+            <nav class="global-nav clearfix">
+                <!-- Left Nav -->
+                <div class="global-nav__left-nav">
+                    <!-- Logo -->
+                <div class="left-nav__logo">
+                        <a class="logo__home-logo">
+                            <img class="home-logo__logo-image" src="https://wac-cdn.atlassian.com/dam/jcr:616e6748-ad8c-48d9-ae93-e49019ed5259/Atlassian-horizontal-blue-rgb.svg?cdnVersion=lb" alt="Atlassian-Logo">
+                        </a>
+                    </div>
+                    <!-- Left Nav List -->
+                    <ul class="left-nav__left-nav-list">
+                        <li><a class="left-nav-list__list-item">Product</a></li>
+                        <li><a class="left-nav-list__list-item">For Teams</a></li>
+                        <li><a class="left-nav-list__list-item">Support</a></li>
+                    </ul>
                 </div>
-                <!-- Left Nav List -->
-                <ul class="left-nav__left-nav-list">
-                    <li><a class="left-nav-list__list-item">Product</a></li>
-                    <li><a class="left-nav-list__list-item">For Teams</a></li>
-                    <li><a class="left-nav-list__list-item">Support</a></li>
-                </ul>
-            </div>
-            
-            <!-- Right Nav -->
-            <div class="global-nav__right-nav">
-                <!-- Right Nav List -->
-                <ul class="right-nav__right-nav-list">
-                    <li><a class="right-nav-list__list-item right-nav-list__list-item--try-button" href="#">Try free</a></li>
-                    <li><a class="right-nav-list__list-item" href="#">Buy Now</a></li>
-                    <li><a class="right-nav-list__list-item right-nav-list__list-item--search-button" href="#"><i class="fas fa-search"></i></a></li>
-                    <li><a class="right-nav-list__list-item" href="#">Join Your Team</a></li>
-                    <li><a class="right-nav-list__list-item" href="#">Login</a></li>
-                </ul> 
-            </div>
-        </nav>
+                
+                <!-- Right Nav -->
+                <div class="global-nav__right-nav">
+                    <!-- Right Nav List -->
+                    <ul class="right-nav__right-nav-list">
+                        <li><a class="right-nav-list__list-item right-nav-list__list-item--try-button" href="#">Try free</a></li>
+                        <li><a class="right-nav-list__list-item" href="#">Buy Now</a></li>
+                        <li><a class="right-nav-list__list-item right-nav-list__list-item--search-button" href="#"><i class="fas fa-search"></i></a></li>
+                        <li><a class="right-nav-list__list-item" href="#">Join Your Team</a></li>
+                        <li><a class="right-nav-list__list-item" href="#">Login</a></li>
+                    </ul> 
+                </div>
+            </nav>
+    </div>
     </header>
 
     <main>
@@ -313,17 +315,18 @@
 
     <!-- Line Separation Two -->
         
-    <div class="line-separation-two">
-        <div class="line-separation-two__container">
-            <div class="line-separation-two__line-box-container">
-                <div class="line-separation-two__line-box">
-                    <hr class="line-separation-two__line">
+        <div class="line-separation-two">
+            <div class="line-separation-two__container">
+                <div class="line-separation-two__line-box-container">
+                    <div class="line-separation-two__line-box">
+                        <hr class="line-separation-two__line">
                     </div>
                 </div>
             </div>
         </div>
 
     <!-- Powering Innovation -->
+
         <section class="powering-innovation">
             <div class="powering-innovation__container">
                 <div class="powering-innovation__heading-box">
@@ -342,16 +345,65 @@
         </section>
 
     <!-- Customers Review Video -->
-    <!-- <section id="customer-review">
-        <div class="container">
-            <div class="first-customer-review"></div>
-            <div class="second-customer-review"></div>
-            <div class="third-customer-review"></div>
-            <div class="learn-more-about-customer">
-                <a href="#"></a>
+
+    <section class="customer-review">
+        <div class="customer-review__container">
+            <div class="customer-review-col">
+                <div class="customer-review-card">
+                    <div class="card__image-box">
+                        <img class="card__image" src="https://wac-cdn.atlassian.com/dam/jcr:a65f22b0-8cd0-4079-a4b0-2cf87db32da5/Telegraph.jpg?cdnVersion=ld" alt="The Telegraph team">
+                    </div>
+                    <div class="card__description">
+                        <div class="card__heading-image-box">
+                            <img class="card__heading-image" src="https://wac-cdn.atlassian.com/dam/jcr:d1587298-f751-488d-bcf0-ec81b30ee936/TheTelegraph_2x.png?cdnVersion=ld" alt="Telegraph logo">
+                        </div> 
+                        <div class="card__heading-description">
+                            <p>How better resolution times and customer support helps The Telegraph reach 25M users a month.</p>
+                        </div>
+                        <div class="card__link-box">
+                            <a href="" class="link">Read their story</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="customer-review-col">
+                <div class="customer-review-card">
+                    <div class="card__image-box">
+                        <img class="card__image" src="https://wac-cdn.atlassian.com/dam/jcr:a65f22b0-8cd0-4079-a4b0-2cf87db32da5/Telegraph.jpg?cdnVersion=ld" alt="The Telegraph team">
+                    </div>
+                    <div class="card__description">
+                        <div class="card__heading-image-box">
+                            <img class="card__heading-image" src="https://wac-cdn.atlassian.com/dam/jcr:d1587298-f751-488d-bcf0-ec81b30ee936/TheTelegraph_2x.png?cdnVersion=ld" alt="Telegraph logo">
+                        </div> 
+                        <div class="card__heading-description">
+                            <p>How better resolution times and customer support helps The Telegraph reach 25M users a month.</p>
+                        </div>
+                        <div class="card__link-box">
+                            <a href="" class="link">Read their story</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="customer-review-col">
+                <div class="customer-review-card">
+                    <div class="card__image-box">
+                        <img class="card__image" src="https://wac-cdn.atlassian.com/dam/jcr:a65f22b0-8cd0-4079-a4b0-2cf87db32da5/Telegraph.jpg?cdnVersion=ld" alt="The Telegraph team">
+                    </div>
+                    <div class="card__description">
+                        <div class="card__heading-image-box">
+                            <img class="card__heading-image" src="https://wac-cdn.atlassian.com/dam/jcr:d1587298-f751-488d-bcf0-ec81b30ee936/TheTelegraph_2x.png?cdnVersion=ld" alt="Telegraph logo">
+                        </div> 
+                        <div class="card__heading-description">
+                            <p>How better resolution times and customer support helps The Telegraph reach 25M users a month.</p>
+                        </div>
+                        <div class="card__link-box">
+                            <a href="" class="link">Read their story</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </section> -->
+    </section>
     </main>
 </body>
 </html>

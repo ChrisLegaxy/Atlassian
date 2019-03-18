@@ -1,0 +1,71 @@
+.customer-review
+{
+    padding: 16px 0;
+}
+
+.customer-review__container
+{
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: flex;
+
+    box-sizing: content-box
+}
+
+.customer-review-col
+{
+    width: 33.33333%;
+    padding: 16px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 6px rgba(0,0,0,.1);
+    height: 100%;
+
+    box-sizing: border-box;
+}
+
+.card__image-box
+{
+    & .card__image
+    {
+        width: 100%;
+        margin-bottom: 16px;
+        height: 230px;
+    }
+}
+
+.card__description
+{
+    padding: 0px 40px 40px 40px;
+    & .card__heading-image-box
+    {
+        & .card__heading-image
+        {
+            width: 192px;
+            margin-top: 18px;
+            margin-bottom: 26px;
+            vertical-align: bottom;
+        }
+    }
+
+    & .card__heading-description
+    {
+        & p
+        {
+            font-size: 1rem;
+            line-height: 24px;
+
+            margin-bottom: 24px;
+        }
+    }
+
+    & .card__link-box
+    {
+        & .link
+        {
+            color: #0052CC;
+            text-decoration: none;
+        }
+    }
+}
+
