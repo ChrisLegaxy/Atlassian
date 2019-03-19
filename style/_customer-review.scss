@@ -17,11 +17,16 @@
 {
     width: 33.33333%;
     padding: 16px;
+    height: auto;
+
+    box-sizing: border-box;
+}
+
+.customer-review-card
+{
     border-radius: 4px;
     box-shadow: 1px 1px 6px rgba(0,0,0,.1);
     height: 100%;
-
-    box-sizing: border-box;
 }
 
 .card__image-box
@@ -46,6 +51,17 @@
             margin-bottom: 26px;
             vertical-align: bottom;
         }
+
+        & .card__heading-image--2
+        {
+            width: 121px;
+        }
+
+        & .card__heading-image--3
+        {
+            width: auto;
+            height: 59px;
+        }
     }
 
     & .card__heading-description
@@ -68,4 +84,6 @@
         }
     }
 }
+
+
 

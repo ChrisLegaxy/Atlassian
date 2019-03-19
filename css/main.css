@@ -585,12 +585,16 @@ body {
 .customer-review-col {
   width: 33.33333%;
   padding: 16px;
+  height: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.customer-review-card {
   border-radius: 4px;
   -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
           box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
   height: 100%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .card__image-box .card__image {
@@ -608,6 +612,15 @@ body {
   margin-top: 18px;
   margin-bottom: 26px;
   vertical-align: bottom;
+}
+
+.card__description .card__heading-image-box .card__heading-image--2 {
+  width: 121px;
+}
+
+.card__description .card__heading-image-box .card__heading-image--3 {
+  width: auto;
+  height: 59px;
 }
 
 .card__description .card__heading-description p {
